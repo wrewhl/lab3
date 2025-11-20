@@ -19,3 +19,8 @@
   
 ## Юз-кейс диаграмма системы
 ![](docs/diagrams/use-case-diagram.png)
+## Блок-схемы
+### 1
+![1](docs/diagrams/block-d1.png)
+### 2
+![2](docs/diagrams/block-d2.png)
