@@ -1,0 +1,20 @@
+@startuml
+left to right direction
+actor "Покупатель" as User
+actor "Менеджер" as Cashier
+
+package "Система возвратов" {
+  usecase "Создать заявку на возврат" as UC1
+  usecase "Прикрепить фото товара и чек" as UC2  
+  usecase "Отслеживать статус заявки" as UC3
+  usecase "Проверить заявку на возврат" as UC4
+  usecase "Просматривать список заявок" as UC5
+  usecase "Отправить решение по заявке" as UC6
+}
+User --> UC1
+User --> UC2
+User --> UC3
+Cashier --> UC4
+Cashier --> UC5
+Cashier --> UC6
+@enduml
