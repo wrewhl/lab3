@@ -24,3 +24,5 @@
 ![1](docs/diagrams/block-d1.png)
 ### 2
 ![2](docs/diagrams/block-d2.png)
+## ER-диаграмма
+![](
